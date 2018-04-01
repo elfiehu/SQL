@@ -1,0 +1,1 @@
+select country_id, country from sakila.country where country in('Afghanistan', 'Bangladesh', 'China'); 

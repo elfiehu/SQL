@@ -1,0 +1,1 @@
+SELECT last_name, COUNT(*) count FROM actor GROUP BY last_name HAVING count > 1;
